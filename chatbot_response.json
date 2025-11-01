@@ -1,0 +1,10 @@
+{
+    "query": "How often do employees get paid?",
+    "contexts": [
+        "Employees are paid twice a month.",
+        "Employees must submit timesheets by Friday at 5 PM each pay period.",
+        "Sick leave accrues at one day per month of active employment."
+    ],
+    "ground_truth": "paid twice in a month",
+    "answer": "Twice a month."
+}
