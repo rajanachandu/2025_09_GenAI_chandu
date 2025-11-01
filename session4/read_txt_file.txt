@@ -1,0 +1,48 @@
+"Performance reviews are conducted annually in December."
+"Employees must submit timesheets by Friday at 5 PM each pay period."
+"Overtime must be approved in advance by a supervisor."
+"Paid holidays include all federal holidays and one floating holiday per year."
+"Sick leave accrues at one day per month of active employment."
+"Employees are eligible for a 401(k) plan after six months of service."
+"Company laptops and equipment must be returned upon termination of employment."
+"Dress code is business casual from Monday to Thursday, and casual on Fridays."
+"Employees must notify their manager at least two weeks in advance for planned time off."
+"Training and development reimbursements require prior written approval."
+"Employees must badge in and out when entering or leaving company premises."
+"Company email and internet use are monitored for compliance with IT policy."
+"All meetings should start and end within the scheduled time slot."
+"Expense reports must be submitted within 10 days of travel completion."
+"Work hours are from 9:00 AM to 5:00 PM, Monday through Friday."
+"Team meetings are held weekly to review project progress and priorities."
+"Employees must complete mandatory compliance training every year."
+"Confidential company information must not be shared outside the organization."
+"Employees may request ergonomic equipment through the HR department."
+"Resignation notice must be provided in writing at least two weeks prior to departure."
+
+
+
+
+
+
+reference_data = [
+  {
+    "question": "What is the company's policy on remote work?", 
+    "ground_truth": "Remote work is allowed up to 3 days per week. Employees must coordinate with their managers and ensure they have a suitable home office setup.", #Expected llm generated answer
+    "context": "Remote work is allowed up to 3 days per week." #Expected retrieved context
+  },
+  {
+    "question": "How and when employees are paid?", 
+    "ground_truth": "Employees are paid bi-weekly via direct deposit.", #Expected llm generated answer
+    "context": "Employees are paid bi-weekly via direct deposit." #Expected retrieved context
+  },
+  {
+    "question": "When Vacation accural starts from?", 
+    "ground_truth": "Vacation accrual starts after 90 days of employment.", #Expected llm generated answer
+    "context": "Vacation accrual starts after 90 days of employment." #Expected retrieved context
+  },
+  {
+    "question": "When Performance reviews are conducted?", 
+    "ground_truth": "Performance reviews are conducted annually in December.", #Expected llm generated answer
+    "context": "Performance reviews are conducted annually in December." #Expected retrieved context
+  }
+]
