@@ -24,7 +24,7 @@ def ask_model_llama2(prompt, model="llama2"):
     except Exception as e:
         return f"Error: {e}"
 
-with open("chat_history.txt", "a") as f:
+with open("/Users/chandurajana/Documents/Chandu_Training/2025_09_GenAI_chandu/chat_history.txt", "a") as f:
     while True:
         user_input_model = input("which model yow want to run using ollama? mistral or llama2 or exit: ").strip()
         if user_input_model.lower() == "mistral":
