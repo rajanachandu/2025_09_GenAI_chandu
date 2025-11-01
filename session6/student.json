@@ -1,0 +1,10 @@
+{
+    "name": "Alice",
+    "age": 22,
+    "major": "Computer Science",
+    "courses": [
+        "AI",
+        "Data Structures",
+        "Machine Learning"
+    ]
+}

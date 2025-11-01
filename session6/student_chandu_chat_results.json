@@ -1,0 +1,116 @@
+[
+    {
+        "query": "Do Employees must submit timesheets?",
+        "contexts": [
+            "Employees must submit timesheets by Friday at 5 PM each pay period.",
+            "Overtime must be approved in advance by a supervisor.",
+            "Expense reports must be submitted within 10 days of travel completion."
+        ],
+        "ground_truth": "paid twice in a month",
+        "answer": "Yes\u2014employees must submit timesheets by Friday at 5 PM each pay period."
+    },
+    {
+        "question": "Employees must submit timesheets by Friday?",
+        "answer": {
+            "query": "Employees must submit timesheets by Friday?",
+            "contexts": [
+                "Employees must submit timesheets by Friday at 5 PM each pay period.",
+                "Work hours are from 9:00 AM to 5:00 PM, Monday through Friday.",
+                "Employees must notify their manager at least two weeks in advance for planned time off."
+            ],
+            "ground_truth": "paid twice in a month",
+            "answer": "Yes. They must submit timesheets by Friday at 5 PM each pay period."
+        }
+    },
+    {
+        "question": "Performance reviews are conducted annually?",
+        "answer": {
+            "query": "Performance reviews are conducted annually?",
+            "contexts": [
+                "Performance reviews are conducted annually in December.",
+                "Team meetings are held weekly to review project progress and priorities.",
+                "Expense reports must be submitted within 10 days of travel completion."
+            ],
+            "ground_truth": "paid twice in a month",
+            "answer": "Yes. They are conducted annually in December."
+        }
+    },
+    {
+        "question": "Employees are eligible for a 401(k) plan?",
+        "answer": {
+            "query": "Employees are eligible for a 401(k) plan?",
+            "contexts": [
+                "Employees are eligible for a 401(k) plan after six months of service.",
+                "Employees are paid twice a month.",
+                "Overtime must be approved in advance by a supervisor."
+            ],
+            "ground_truth": "paid twice in a month",
+            "answer": "Yes. Employees become eligible for the 401(k) plan after six months of service."
+        }
+    },
+    {
+        "question": "raining and development reimbursements require prior written approval?",
+        "answer": {
+            "query": "raining and development reimbursements require prior written approval?",
+            "contexts": [
+                "Training and development reimbursements require prior written approval.",
+                "Expense reports must be submitted within 10 days of travel completion.",
+                "Overtime must be approved in advance by a supervisor."
+            ],
+            "ground_truth": "paid twice in a month",
+            "answer": "Yes. The policy states that training and development reimbursements require prior written approval."
+        }
+    },
+    {
+        "question": "Dress code is business casual?",
+        "answer": {
+            "query": "Dress code is business casual?",
+            "contexts": [
+                "Dress code is business casual from Monday to Thursday, and casual on Fridays.",
+                "Employees must badge in and out when entering or leaving company premises.",
+                "Employees may request ergonomic equipment through the HR department."
+            ],
+            "ground_truth": "paid twice in a month",
+            "answer": "Yes. The dress code is business casual from Monday to Thursday, and casual on Fridays."
+        }
+    },
+    {
+        "question": "Employees must badge in and out when entering or leaving company premises?",
+        "answer": {
+            "query": "Employees must badge in and out when entering or leaving company premises?",
+            "contexts": [
+                "Employees must badge in and out when entering or leaving company premises.",
+                "Confidential company information must not be shared outside the organization.",
+                "Employees must notify their manager at least two weeks in advance for planned time off."
+            ],
+            "ground_truth": "paid twice in a month",
+            "answer": "Yes \u2014 employees must badge in and out when entering or leaving company premises."
+        }
+    },
+    {
+        "question": "Overtime must be approved in advance?",
+        "answer": {
+            "query": "Overtime must be approved in advance?",
+            "contexts": [
+                "Overtime must be approved in advance by a supervisor.",
+                "Training and development reimbursements require prior written approval.",
+                "All meetings should start and end within the scheduled time slot."
+            ],
+            "ground_truth": "paid twice in a month",
+            "answer": "Yes. Overtime must be approved in advance by a supervisor."
+        }
+    },
+    {
+        "question": "Employees are paid twice a month?",
+        "answer": {
+            "query": "Employees are paid twice a month?",
+            "contexts": [
+                "Employees are paid twice a month.",
+                "Sick leave accrues at one day per month of active employment.",
+                "Paid holidays include all federal holidays and one floating holiday per year."
+            ],
+            "ground_truth": "paid twice in a month",
+            "answer": "Yes. They are paid twice a month."
+        }
+    }
+]
